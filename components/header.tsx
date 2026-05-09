@@ -29,7 +29,7 @@ export function Header() {
           <div className="hidden lg:block w-px h-20 bg-gray-300 mx-3"></div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-right gap-4 flex-1 justify-center">
+          <nav className="hidden lg:flex items-center gap-4 flex-1 justify-end mr-4">
             {navLinks.map((link) => (
               <div key={link.name} className="relative">
                 <Link
