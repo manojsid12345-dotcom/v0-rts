@@ -60,8 +60,7 @@ export function WhyChooseUs() {
           {/* Right Image */}
           <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJ1Y2t8ZW58MHx8MHx8fDA%3D"
-              alt="Professional trucking dispatch service"
+              src="https://wallpapercave.com/wp/wp3022645.jpg"
               fill
               priority
               className="object-cover object-center"
