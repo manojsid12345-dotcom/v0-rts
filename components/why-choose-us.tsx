@@ -49,9 +49,9 @@ export function WhyChooseUs() {
 
           {/* Right Image */}
           <div className="relative h-64 lg:h-auto min-h-[400px]">
-            <Image
+            {/* <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%208%2C%202026%2C%2008_31_47%20PM-S5XSTjBWGMIarwNeYO3LHcfKN8N28H.png"
-              alt="Professional trucking"
+              alt="Professional trucking" */}
               fill
               className="object-cover object-center"
             />
