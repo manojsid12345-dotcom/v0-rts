@@ -81,21 +81,50 @@ export function Hero() {
         </div>
 
         {/* Dispatch Partner Badge */}
-        <div className="absolute bottom-8 right-4 lg:right-8 hidden md:block">
-          <div className="bg-white rounded-lg p-4 shadow-lg flex items-center gap-3">
-            <div className="w-12 h-12 bg-[#e31837] rounded flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-white">
-                <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-              </svg>
-            </div>
-            <div>
-              <p className="text-[#e31837] text-xs font-semibold tracking-wide">YOUR RELIABLE</p>
-              <p className="text-[#0a1628] font-black text-sm">DISPATCH PARTNER</p>
-              <p className="text-[#e31837] text-xs font-semibold">IN USA & CANADA</p>
-            </div>
-          </div>
-        </div>
+       <div className="absolute bottom-8 right-4 lg:right-8 hidden md:block">
+  <div className="bg-[#061433] border-2 border-[#e31837] rounded-lg px-8 py-6 shadow-[0_0_14px_rgba(227,24,55,0.35)] flex items-center gap-8 min-w-[470px]">
+    
+    {/* Shield Icon */}
+    <div className="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center">
+      <svg
+        viewBox="0 0 100 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-full h-full"
+      >
+        <path
+          d="M50 8C40 18 29 21 18 24V47C18 70 34 82 50 91C66 82 82 70 82 47V24C71 21 60 18 50 8Z"
+          stroke="#e31837"
+          strokeWidth="6"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M34 50L45 61L66 38"
+          stroke="#e31837"
+          strokeWidth="7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
+
+    {/* Text */}
+    <div className="leading-tight">
+      <p className="text-[#e31837] text-[22px] font-extrabold tracking-wide uppercase">
+        YOUR RELIABLE
+      </p>
+
+      <p className="text-white text-[30px] font-black tracking-wide uppercase mt-2 drop-shadow-[0_1px_2px_rgba(255,255,255,0.45)]">
+        DISPATCH PARTNER
+      </p>
+
+      <p className="text-[#e31837] text-[21px] font-extrabold tracking-wide uppercase mt-2">
+        IN USA &amp; CANADA
+      </p>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   )
