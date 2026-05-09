@@ -48,7 +48,7 @@ export function WhyChooseUs() {
           </div>
 
           {/* Right Image */}
-          {/* <div className="relative h-64 lg:h-auto min-h-[400px]">
+          <div className="relative h-64 lg:h-auto min-h-[400px]">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%208%2C%202026%2C%2008_31_47%20PM-S5XSTjBWGMIarwNeYO3LHcfKN8N28H.png"
               alt="Professional trucking"
@@ -56,7 +56,7 @@ export function WhyChooseUs() {
               className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/50 to-transparent" />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
