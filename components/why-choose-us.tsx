@@ -60,7 +60,7 @@ export function WhyChooseUs() {
           {/* Right Image */}
           <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
             <Image
-              src="https://wallpaperaccess.com/full/2106311.jpg"
+              src="https://w0.peakpx.com/wallpaper/83/927/HD-wallpaper-scania-european-big-red-truck-r730-semi-truck-up-sema-show-socal-customs.jpg"
               fill
               priority
               className="object-cover object-center"
