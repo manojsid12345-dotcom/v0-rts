@@ -14,25 +14,35 @@ const benefits = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="bg-white">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2">
+    <section id="why-choose-us" className="bg-white overflow-hidden">
+      <div className="max-w-[1173px] mx-auto">
+        <div className="grid lg:grid-cols-[47%_53%] min-h-[388px]">
+
           {/* Left Content */}
-          <div className="px-4 py-16 md:py-24 lg:pr-12">
-            <p className="text-[#e31837] text-sm font-semibold tracking-wide mb-2">
+          <div className="relative z-10 px-6 md:px-12 py-10 md:py-11 bg-white">
+            <p className="text-[#e31837] text-[14px] font-black tracking-[0.08em] uppercase mb-3">
               WHY CHOOSE US
             </p>
-            <h2 className="text-3xl md:text-4xl font-black text-[#0a1628] mb-4">
+
+            <h2 className="text-[#071633] text-[28px] md:text-[30px] font-black tracking-[0.04em] leading-tight uppercase mb-4">
               WE FOCUS ON YOUR SUCCESS
             </h2>
-            <div className="w-12 h-1 bg-[#e31837] mb-8" />
+
+            <div className="relative w-[55px] h-[4px] bg-[#e31837] mb-7">
+              <span className="absolute right-[-7px] top-1/2 -translate-y-1/2 w-[5px] h-[5px] bg-[#e31837] rounded-full" />
+            </div>
 
             {/* Benefits List */}
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-[14px] mb-7">
               {benefits.map((benefit) => (
                 <li key={benefit} className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#e31837] flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-700 text-sm">{benefit}</span>
+                  <CheckCircle
+                    className="w-[18px] h-[18px] text-[#e31837] flex-shrink-0 mt-[1px]"
+                    strokeWidth={3}
+                  />
+                  <span className="text-[#071633] text-[14px] font-semibold leading-snug">
+                    {benefit}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -40,23 +50,27 @@ export function WhyChooseUs() {
             {/* CTA Button */}
             <Link
               href="#about"
-              className="inline-flex items-center gap-2 bg-[#e31837] hover:bg-[#c41430] text-white px-6 py-3 rounded font-semibold text-sm transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-[#e31837] hover:bg-[#c41430] text-white h-[41px] px-7 rounded-[2px] font-black text-[13px] uppercase transition-colors shadow-sm"
             >
               LEARN MORE ABOUT US
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4" strokeWidth={3} />
             </Link>
           </div>
 
           {/* Right Image */}
-          <div className="relative h-64 lg:h-auto min-h-[400px]">
-            {/* <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%208%2C%202026%2C%2008_31_47%20PM-S5XSTjBWGMIarwNeYO3LHcfKN8N28H.png"
-              alt="Professional trucking" */}
+          <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
+            <Image
+              src="/images/why-choose-truck.png"
+              alt="Professional trucking dispatch service"
               fill
+              priority
               className="object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/50 to-transparent" />
+
+            {/* Soft white fade on the left side of image */}
+            <div className="absolute inset-y-0 left-0 w-[35%] bg-gradient-to-r from-white via-white/80 to-transparent" />
           </div>
+
         </div>
       </div>
     </section>
