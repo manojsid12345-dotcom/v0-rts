@@ -60,7 +60,7 @@ export function WhyChooseUs() {
           {/* Right Image */}
           <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
             <Image
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSST3qNkfTOfxMghoekenceknrYSWBnh6P6og&s"
+              src="https://img.freepik.com/premium-photo/red-semitruck-coastal-highway-3d-illustration_37416-1534.jpg?semt=ais_hybrid&w=740&q=80"
               fill
               priority
               className="object-cover object-center"
