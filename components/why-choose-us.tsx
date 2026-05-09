@@ -60,7 +60,7 @@ export function WhyChooseUs() {
           {/* Right Image */}
           <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
             <Image
-              src="/images/why-choose-truck.png"
+              src="https://unsplash.com/s/photos/truck"
               alt="Professional trucking dispatch service"
               fill
               priority
