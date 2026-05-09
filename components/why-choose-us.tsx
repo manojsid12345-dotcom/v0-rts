@@ -60,7 +60,7 @@ export function WhyChooseUs() {
           {/* Right Image */}
           <div className="relative min-h-[300px] lg:min-h-[388px] overflow-hidden">
             <Image
-              src="https://images.stockcake.com/public/b/1/8/b18ce75c-dfbf-425b-a3c2-f416c49d0892_large/powerful-blue-trucking-stockcake.jpg"
+              src="https://wallpaperaccess.com/full/2106311.jpg"
               fill
               priority
               className="object-cover object-center"
