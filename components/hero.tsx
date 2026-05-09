@@ -17,7 +17,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20May%208%2C%202026%2C%2008_31_47%20PM-S5XSTjBWGMIarwNeYO3LHcfKN8N28H.png"
+          src="https://images.stockcake.com/public/4/e/0/4e0539a6-6e6a-49d6-b01c-ababcf02e061_large/powerful-blue-hauler-stockcake.jpg"
           alt="Truck on highway"
           fill
           className="object-cover object-right opacity-60"
