@@ -29,7 +29,7 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 py-16 md:py-24 lg:py-32">
         <div className="max-w-2xl">
           {/* Tagline */}
-          <p className="text-gray-300 text-sm italic mb-4 tracking-wide">
+          <p className="text-[#e31837] text-sm italic mb-4 tracking-wide">
             DISPATCHING EXCELLENCE.
             <br />
             DRIVING YOUR SUCCESS.

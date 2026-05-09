@@ -10,6 +10,7 @@ const navLinks = [
   { name: "SERVICES", href: "#services" },
   { name: "ABOUT US", href: "#about" },
   { name: "HOW WE WORK", href: "#why-choose-us" },
+  { name: "TESTIMONIALS", href: "#testimonials" },
   { name: "CONTACT", href: "#contact" },
 ]
 
@@ -26,10 +27,10 @@ export function Header() {
           </Link>
 
           {/* Vertical Separator */}
-          <div className="hidden lg:block w-px h-20 bg-gray-300 mx-3"></div>
+          <div className="hidden lg:block w-px h-20 bg-gray-300 mx-6"></div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-4 flex-1 justify-end mr-4">
+          <nav className="hidden lg:flex items-center gap-8 flex-1 justify-center">
             {navLinks.map((link) => (
               <div key={link.name} className="relative">
                 <Link
@@ -54,7 +55,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
             <Link
               href="#contact"
-              className="bg-[#e31837] hover:bg-[#c41430] text-white px-3 py-2.5 font-bold text-sm uppercase transition-colors"
+              className="bg-[#e31837] hover:bg-[#c41430] text-white px-6 py-2.5 font-bold text-sm uppercase transition-colors"
             >
               GET A DISPATCHER
             </Link>

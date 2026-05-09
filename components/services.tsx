@@ -51,8 +51,8 @@ export function Services() {
                     <service.icon className="w-10 h-10 text-[#e31837]" />
                   </div>
                   {/* Small accent circles */}
-                  {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-[#e31837] rounded-full" /> */}
-                  {/* <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-[#0a1628] rounded-full" /> */}
+                  <div className="absolute -top-1 -right-1 w-4 h-4 bg-[#e31837] rounded-full" />
+                  <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-[#0a1628] rounded-full" />
                 </div>
               </div>
 
