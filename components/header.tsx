@@ -19,35 +19,43 @@ export function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3">
+      <div className="max-w-full mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          {/* Logo Section */}
+          <Link href="/" className="flex-shrink-0">
             <Logo />
           </Link>
 
+          {/* Vertical Separator */}
+          <div className="hidden lg:block w-px h-20 bg-gray-300 mx-6"></div>
+
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6">
+          <nav className="hidden lg:flex items-center gap-8 flex-1 justify-center">
             {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className={`text-xs font-semibold tracking-wide transition-colors ${
-                  link.active 
-                    ? "text-[#e31837]" 
-                    : "text-[#0a1628] hover:text-[#e31837]"
-                }`}
-              >
-                {link.name}
-              </Link>
+              <div key={link.name} className="relative">
+                <Link
+                  href={link.href}
+                  className={`text-sm font-bold uppercase tracking-wide transition-colors ${
+                    link.active 
+                      ? "text-[#e31837]" 
+                      : "text-[#0a1628] hover:text-[#e31837]"
+                  }`}
+                >
+                  {link.name}
+                </Link>
+                {/* Red underline for active link */}
+                {link.active && (
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-[#e31837] rounded-t"></div>
+                )}
+              </div>
             ))}
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
             <Link
               href="#contact"
-              className="bg-[#e31837] hover:bg-[#c41430] text-white px-5 py-2.5 rounded text-xs font-semibold transition-colors"
+              className="bg-[#e31837] hover:bg-[#c41430] text-white px-6 py-2.5 font-bold text-sm uppercase transition-colors"
             >
               GET A DISPATCHER
             </Link>
@@ -75,7 +83,7 @@ export function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`text-sm font-semibold ${
+                  className={`text-sm font-bold uppercase ${
                     link.active ? "text-[#e31837]" : "text-[#0a1628]"
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
@@ -85,7 +93,7 @@ export function Header() {
               ))}
               <Link
                 href="#contact"
-                className="bg-[#e31837] text-white px-5 py-2.5 rounded text-sm font-semibold text-center mt-2"
+                className="bg-[#e31837] text-white px-5 py-2.5 rounded text-sm font-bold uppercase text-center mt-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 GET A DISPATCHER
