@@ -81,11 +81,11 @@ export function Hero() {
         </div>
 
         {/* Dispatch Partner Badge */}
-       <div className="absolute bottom-8 right-4 lg:right-8 hidden md:block">
-  <div className="bg-[#061433] border-2 border-[#e31837] rounded-lg px-8 py-6 shadow-[0_0_14px_rgba(227,24,55,0.35)] flex items-center gap-8 min-w-[470px]">
+       <div className="absolute bottom-6 right-4 lg:right-8 hidden md:block">
+  <div className="bg-[#061433]/95 border border-[#e31837] rounded-md px-5 py-4 shadow-[0_0_10px_rgba(227,24,55,0.25)] flex items-center gap-5 w-[268px] h-[96px]">
     
     {/* Shield Icon */}
-    <div className="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center">
+    <div className="flex-shrink-0 w-[54px] h-[54px] flex items-center justify-center">
       <svg
         viewBox="0 0 100 100"
         fill="none"
@@ -111,15 +111,15 @@ export function Hero() {
 
     {/* Text */}
     <div className="leading-tight">
-      <p className="text-[#e31837] text-[22px] font-extrabold tracking-wide uppercase">
+      <p className="text-[#e31837] text-[11px] font-extrabold tracking-wide uppercase">
         YOUR RELIABLE
       </p>
 
-      <p className="text-white text-[30px] font-black tracking-wide uppercase mt-2 drop-shadow-[0_1px_2px_rgba(255,255,255,0.45)]">
+      <p className="text-white text-[16px] font-black tracking-wide uppercase mt-1">
         DISPATCH PARTNER
       </p>
 
-      <p className="text-[#e31837] text-[21px] font-extrabold tracking-wide uppercase mt-2">
+      <p className="text-[#e31837] text-[11px] font-extrabold tracking-wide uppercase mt-1">
         IN USA &amp; CANADA
       </p>
     </div>
