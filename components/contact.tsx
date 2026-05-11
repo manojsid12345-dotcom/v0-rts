@@ -36,7 +36,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="bg-[#0a1628]">
+    <section id="contact" className="bg-[#0a1628] py-5">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2">
           {/* Left Content */}

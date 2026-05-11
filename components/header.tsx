@@ -18,15 +18,12 @@ export function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-full mx-auto px-6 py-4">
+      <div className="max-w-full mx-auto px-6">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
           <Link href="/" className="flex-shrink-0">
             <Logo />
           </Link>
-
-          {/* Vertical Separator */}
-          <div className="hidden lg:block w-px h-20 bg-gray-300 mx-6"></div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8 flex-1 justify-center">

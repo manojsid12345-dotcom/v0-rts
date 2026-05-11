@@ -14,7 +14,7 @@ const benefits = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="bg-white overflow-hidden">
+    <section id="why-choose-us" className="bg-white overflow-hidden py-5">
       <div className="max-w-[1173px] mx-auto">
         <div className="grid lg:grid-cols-[47%_53%] min-h-[388px]">
 
@@ -64,6 +64,7 @@ export function WhyChooseUs() {
               fill
               priority
               className="object-cover object-center"
+              alt=""
             />
 
             {/* Soft white fade on the left side of image */}
